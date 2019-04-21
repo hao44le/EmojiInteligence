@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		C0544710226C09F700E149AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054470F226C09F700E149AA /* AppDelegate.swift */; };
-		C0544712226C09F700E149AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544711226C09F700E149AA /* ViewController.swift */; };
-		C0544715226C09F700E149AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0544713226C09F700E149AA /* Main.storyboard */; };
 		C0544717226C09F900E149AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0544716226C09F900E149AA /* Assets.xcassets */; };
 		C054471A226C09F900E149AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0544718226C09F900E149AA /* LaunchScreen.storyboard */; };
+		C054472E226C0A5500E149AA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544722226C0A5500E149AA /* Extension.swift */; };
+		C054472F226C0A5500E149AA /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544723226C0A5500E149AA /* ImageProcessor.swift */; };
+		C0544730226C0A5500E149AA /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544724226C0A5500E149AA /* enum.swift */; };
+		C0544731226C0A5500E149AA /* ActivationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544726226C0A5500E149AA /* ActivationFunction.swift */; };
+		C0544732226C0A5500E149AA /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544728226C0A5500E149AA /* NeuralNetwork.swift */; };
+		C0544733226C0A5500E149AA /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544729226C0A5500E149AA /* Layer.swift */; };
+		C0544734226C0A5500E149AA /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054472B226C0A5500E149AA /* DrawView.swift */; };
+		C0544735226C0A5500E149AA /* NNEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054472D226C0A5500E149AA /* NNEmoji.swift */; };
+		C0544738226C0A6000E149AA /* NeuralNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0544737226C0A6000E149AA /* NeuralNetworkViewController.swift */; };
+		C054473A226C0A9E00E149AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0544739226C0A9E00E149AA /* Main.storyboard */; };
+		C0544741226C0DBD00E149AA /* stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = C054473C226C0DBC00E149AA /* stroke.png */; };
+		C0544742226C0DBD00E149AA /* stroke@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C054473D226C0DBC00E149AA /* stroke@2x.png */; };
+		C0544743226C0DBD00E149AA /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = C054473E226C0DBC00E149AA /* correct.wav */; };
+		C0544744226C0DBD00E149AA /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = C054473F226C0DBC00E149AA /* wrong.wav */; };
+		C0544745226C0DBD00E149AA /* stroke@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0544740226C0DBC00E149AA /* stroke@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C054470C226C09F700E149AA /* EmojiInteligence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiInteligence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C054470F226C09F700E149AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0544711226C09F700E149AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0544714226C09F700E149AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0544716226C09F900E149AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0544719226C09F900E149AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C054471B226C09F900E149AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0544722226C0A5500E149AA /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C0544723226C0A5500E149AA /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		C0544724226C0A5500E149AA /* enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		C0544726226C0A5500E149AA /* ActivationFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationFunction.swift; sourceTree = "<group>"; };
+		C0544728226C0A5500E149AA /* NeuralNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
+		C0544729226C0A5500E149AA /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		C054472B226C0A5500E149AA /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		C054472D226C0A5500E149AA /* NNEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NNEmoji.swift; sourceTree = "<group>"; };
+		C0544737226C0A6000E149AA /* NeuralNetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNetworkViewController.swift; sourceTree = "<group>"; };
+		C0544739226C0A9E00E149AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C054473C226C0DBC00E149AA /* stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stroke.png; sourceTree = "<group>"; };
+		C054473D226C0DBC00E149AA /* stroke@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stroke@2x.png"; sourceTree = "<group>"; };
+		C054473E226C0DBC00E149AA /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = "<group>"; };
+		C054473F226C0DBC00E149AA /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
+		C0544740226C0DBC00E149AA /* stroke@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stroke@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,83 @@
 		C054470E226C09F700E149AA /* EmojiInteligence */ = {
 			isa = PBXGroup;
 			children = (
+				C054473B226C0DBC00E149AA /* Resources */,
+				C0544736226C0A6000E149AA /* ViewController */,
+				C0544721226C0A5500E149AA /* Helper */,
+				C0544725226C0A5500E149AA /* Math */,
+				C054472C226C0A5500E149AA /* Model */,
+				C0544727226C0A5500E149AA /* Neural Network */,
+				C054472A226C0A5500E149AA /* View */,
 				C054470F226C09F700E149AA /* AppDelegate.swift */,
-				C0544711226C09F700E149AA /* ViewController.swift */,
-				C0544713226C09F700E149AA /* Main.storyboard */,
+				C0544739226C0A9E00E149AA /* Main.storyboard */,
 				C0544716226C09F900E149AA /* Assets.xcassets */,
 				C0544718226C09F900E149AA /* LaunchScreen.storyboard */,
 				C054471B226C09F900E149AA /* Info.plist */,
 			);
 			path = EmojiInteligence;
+			sourceTree = "<group>";
+		};
+		C0544721226C0A5500E149AA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C0544722226C0A5500E149AA /* Extension.swift */,
+				C0544723226C0A5500E149AA /* ImageProcessor.swift */,
+				C0544724226C0A5500E149AA /* enum.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C0544725226C0A5500E149AA /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				C0544726226C0A5500E149AA /* ActivationFunction.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		C0544727226C0A5500E149AA /* Neural Network */ = {
+			isa = PBXGroup;
+			children = (
+				C0544728226C0A5500E149AA /* NeuralNetwork.swift */,
+				C0544729226C0A5500E149AA /* Layer.swift */,
+			);
+			path = "Neural Network";
+			sourceTree = "<group>";
+		};
+		C054472A226C0A5500E149AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C054472B226C0A5500E149AA /* DrawView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C054472C226C0A5500E149AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C054472D226C0A5500E149AA /* NNEmoji.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0544736226C0A6000E149AA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0544737226C0A6000E149AA /* NeuralNetworkViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C054473B226C0DBC00E149AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C054473C226C0DBC00E149AA /* stroke.png */,
+				C054473D226C0DBC00E149AA /* stroke@2x.png */,
+				C054473E226C0DBC00E149AA /* correct.wav */,
+				C054473F226C0DBC00E149AA /* wrong.wav */,
+				C0544740226C0DBC00E149AA /* stroke@3x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +217,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C054473A226C0A9E00E149AA /* Main.storyboard in Resources */,
+				C0544741226C0DBD00E149AA /* stroke.png in Resources */,
+				C0544742226C0DBD00E149AA /* stroke@2x.png in Resources */,
+				C0544745226C0DBD00E149AA /* stroke@3x.png in Resources */,
+				C0544744226C0DBD00E149AA /* wrong.wav in Resources */,
 				C054471A226C09F900E149AA /* LaunchScreen.storyboard in Resources */,
 				C0544717226C09F900E149AA /* Assets.xcassets in Resources */,
-				C0544715226C09F700E149AA /* Main.storyboard in Resources */,
+				C0544743226C0DBD00E149AA /* correct.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +235,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0544712226C09F700E149AA /* ViewController.swift in Sources */,
+				C0544730226C0A5500E149AA /* enum.swift in Sources */,
+				C0544731226C0A5500E149AA /* ActivationFunction.swift in Sources */,
+				C054472E226C0A5500E149AA /* Extension.swift in Sources */,
+				C0544733226C0A5500E149AA /* Layer.swift in Sources */,
+				C0544735226C0A5500E149AA /* NNEmoji.swift in Sources */,
+				C0544734226C0A5500E149AA /* DrawView.swift in Sources */,
+				C0544738226C0A6000E149AA /* NeuralNetworkViewController.swift in Sources */,
+				C054472F226C0A5500E149AA /* ImageProcessor.swift in Sources */,
 				C0544710226C09F700E149AA /* AppDelegate.swift in Sources */,
+				C0544732226C0A5500E149AA /* NeuralNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C0544713226C09F700E149AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0544714226C09F700E149AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C0544718226C09F900E149AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
